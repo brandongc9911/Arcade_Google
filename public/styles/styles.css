@@ -1,0 +1,157 @@
+
+
+/* VARIABLES */
+:root{
+    --azul:#2b55de;
+}
+/* GLOBALES */
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+P{
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+
+
+
+
+h1, h2, h3{
+    margin: 0 0 2rem 0;
+}
+
+
+
+img{
+    max-width: 100%;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.btn{
+    position: absolute;
+    font-size: 1.8rem;
+    color: white;
+    margin-top: 20px;
+    padding: 12px 40px;
+    border-radius: 10px;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-weight: bold;
+}
+
+.btn-azul{
+    background-color: var(--azul);
+}
+
+/* ---------- FIN GLOBALES ------------------- */
+
+
+.contenedor{
+    width: 50%;
+    height: 303px;
+    max-width: 120rem;
+    margin: 50px auto;
+    border: 0.5px solid gray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.contenedor .contenedor-title{
+    color: white;
+    margin-left: 20px;
+    font-size: 1.3rem;
+}
+.contenedor .contenedor-game img{
+    height: 250px;
+}
+
+.contenedor-jugar{
+    width: 100%;
+    height: 78px;
+    border: 0.5px solid gray;
+}
+
+.contenedor .opciones{
+    display: none;
+    width: 100%;
+    height: 240px;
+    border: 0.5px solid gray;
+}
+
+.opciones .opciones__content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    border-bottom: 0.5px solid gray;
+    width: 100%;
+    height: 50px;
+    
+
+}
+
+.opciones__content span{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.opciones .opciones__selectContent{
+    display: flex;
+    width: 100%;
+    height: 170px;
+}
+
+.opciones__selectContent .opcion__card{
+    gap: 5px;
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 155px;
+    width: 120px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.opcion__card img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.opcion__card p{
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.contenedor .content__arrow{
+    position: relative;
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    border: 0.5px solid gray;
+}
+
+.content__arrow i{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
